@@ -1,3 +1,9 @@
+/*******************************************
+        GENERAL PART
+*******************************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Itim&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,3 +14,125 @@ html {
     font-size: 62.5%;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    /* background-color: #e7e7e7; */
+    background-color: #BEE3DB;
+}
+
+/*******************************************
+        TOP PART
+*******************************************/
+.top-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40vh;
+    /* padding: 8rem; */
+    /* border: 5px solid yellowgreen; */
+}
+
+.header {
+    font-size: 4rem;
+    margin: 1rem 1rem 2rem 1rem;
+    text-align: center;
+}
+
+form {
+    font-size: 2rem;
+    text-align: center;
+}
+
+form label {
+    margin-left: 2rem;
+}
+
+form input {
+    padding: 1rem;
+    margin-left: 1rem;
+    border-radius: 10px;
+    border: none;
+    color: #FAF9F9;
+    background-color: #89B0AE;
+}
+
+form input:focus {
+    outline: none;
+}
+.btn {
+    padding: 1rem 2rem;
+    margin-left: 3rem;
+    border-radius: 10px;
+    border: none;
+    color: #FAF9F9;
+    background-color: #555B6E;
+}
+
+.buttons {
+    margin: 5rem 0 1rem 0;
+}
+
+.message {
+    margin: 2rem 0;
+    padding: 3rem 6rem;
+    border: 10px solid rgb(255, 167, 157);
+    color: #555B6E;
+    border-radius: 25px;
+    font-size: 3rem;
+}
+
+/*******************************************
+        BOTTOM PART
+*******************************************/
+.bottom-section {
+    height: 60vh;
+    padding: 4rem 2rem 2rem 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+    /* border: 5px solid salmon; */
+}
+
+
+.board {
+    width: 40%;
+    height: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    font-size: 12rem;
+}
+
+.board-square {
+    padding: 1rem;
+    text-align: center;
+    /* font-family: 'Fredoka One', cursive; */
+    font-family: 'Itim', cursive;
+    color: #555B6E;
+    /* background-color: khaki; */
+}
+
+.left {
+    border-left: 1px solid #000;
+}
+
+.top {
+    border-top: 1px solid #000;
+    
+}
+
+.right {
+    border-right: 1px solid #000;
+    
+}
+
+.bottom {
+    border-bottom: 1px solid #000;
+
+}
+
+
+

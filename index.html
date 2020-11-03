@@ -7,6 +7,34 @@
     <title>Tic Tac Toe</title>
 </head>
 <body>
+    <div class="top-section">
+        <h1 class="header">Tic Tac Toe</h1>
+        <form action="#">
+            <label for="player-1">Player One Name</label>
+            <input type="text" name="player-1" id="player-1">
+            <label for="player-2">Player Two Name</label>
+            <input type="text" name="player-2" id="player-2">
+        </form>
+        <div class="buttons">
+            <button class="btn btn-start">Start Game</button>
+            <button class="btn btn-restart">Restart Game</button>
+        </div>
+        <h2 class="message">Player One Wins</h2>
+    </div>
+    <div class="bottom-section">
+        <div class="board">
+            <div data-square-no="1" class="board-square right bottom">x</div>
+            <div data-square-no="2" class="board-square left right bottom">o</div>
+            <div data-square-no="3" class="board-square left bottom">x</div>
+            <div data-square-no="4" class="board-square top right bottom">o</div>
+            <div data-square-no="5" class="board-square top left right bottom">x</div>
+            <div data-square-no="6" class="board-square top left bottom">o</div>
+            <div data-square-no="7" class="board-square top right">x</div>
+            <div data-square-no="8" class="board-square top left right">o</div>
+            <div data-square-no="9" class="board-square top left">x</div>
+        </div>
+        
+    </div>
     <script src="./app.js"></script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-#Tic Tac Toe
+# Tic Tac Toe
 
 This project is built as part of [The Odin Project](https://www.theodinproject.com/).
 
