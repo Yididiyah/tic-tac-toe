@@ -70,11 +70,26 @@ form input:focus {
     background-color: #555B6E;
 }
 
+.btn:focus {
+    outline: none;
+    /* background-color: #1b1d22; */
+}
+
+.btn:active{
+    background-color: #1b1d22;
+
+}
+
+.btn:hover{
+    background-color: #777e97;
+}
+
 .buttons {
     margin: 5rem 0 1rem 0;
 }
 
 .message {
+    display: none;
     margin: 2rem 0;
     padding: 3rem 6rem;
     border: 10px solid rgb(255, 167, 157);
@@ -107,12 +122,21 @@ form input:focus {
 }
 
 .board-square {
-    padding: 1rem;
+    position: relative;
+    padding: 8rem;
     text-align: center;
     /* font-family: 'Fredoka One', cursive; */
     font-family: 'Itim', cursive;
     color: #555B6E;
     /* background-color: khaki; */
+}
+
+.board-square-letter {
+    cursor: default;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .left {
